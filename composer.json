@@ -2,7 +2,7 @@
     "name": "mage2kishan/module-performance-optimizer",
     "description": "Frontend performance optimizations for Magento 2 — script deferral, font-display swap, CLS prevention, iframe lazy loading. Designed for Hyva and Luma storefronts.",
     "type": "magento2-module",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "license": "proprietary",
     "keywords": [
         "magento2",

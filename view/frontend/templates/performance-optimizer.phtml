@@ -89,37 +89,15 @@ if (!$helper->isEnabled()) {
 </script>
 <?php endif; ?>
 
-<?php if ($helper->isSetImageDimensionsEnabled()): ?>
-<!-- Performance Optimizer: Set missing image dimensions to reduce CLS -->
-<script>
-(function(){
-    'use strict';
-    function setImageDimensions() {
-        var images = document.querySelectorAll('img:not([width]):not([height])');
-        for (var i = 0; i < images.length; i++) {
-            (function(img) {
-                if (img.complete && img.naturalWidth) {
-                    img.setAttribute('width', img.naturalWidth);
-                    img.setAttribute('height', img.naturalHeight);
-                } else {
-                    img.addEventListener('load', function() {
-                        if (img.naturalWidth) {
-                            img.setAttribute('width', img.naturalWidth);
-                            img.setAttribute('height', img.naturalHeight);
-                        }
-                    });
-                }
-            })(images[i]);
-        }
-    }
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', setImageDimensions);
-    } else {
-        setImageDimensions();
-    }
-})();
-</script>
-<?php endif; ?>
+<?php /*
+ * set_image_dimensions is handled server-side by
+ * Panth\PerformanceOptimizer\Plugin\Layout\InjectImageDimensionsPlugin —
+ * width/height attributes are injected before the HTML reaches the browser
+ * so the layout reservation is correct on first paint. The previous
+ * client-side fallback set dimensions inside the load handler, which fired
+ * AFTER the image had already shifted the layout — useless for CLS — so
+ * it was removed.
+ */ ?>
 
 <?php if ($helper->isIframeLazyLoadEnabled()): ?>
 <!-- Performance Optimizer: Lazy load iframes via IntersectionObserver -->

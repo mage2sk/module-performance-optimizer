@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Panth Infotech. All rights reserved.
+ *
+ * Frontend-only Layout pass that injects width/height attributes onto
+ * <img> tags shipped without dimensions. Kept out of the global di.xml
+ * so admin grids and listings (where CLS is irrelevant) never pay the
+ * regex + getimagesize cost.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\View\Layout">
+        <plugin name="panth_performance_inject_image_dimensions"
+                type="Panth\PerformanceOptimizer\Plugin\Layout\InjectImageDimensionsPlugin"
+                sortOrder="100"/>
+    </type>
+</config>
