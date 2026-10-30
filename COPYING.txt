@@ -1,12 +1,6 @@
-Panth Commercial License
+Magento 2 Performance Optimizer
 
-Copyright (c) 2026 Kishan Savaliya. All rights reserved.
+Copyright (c) 2026 Kishan Savaliya (Panth Infotech)
 
-Use of this software is governed by the LICENSE.txt file distributed
-with the source code. Panth_PerformanceOptimizer is a proprietary
-extension published on the Adobe Commerce Marketplace.
-
-For all licensing, support, and general questions, please contact:
-    Email:    kishansavaliyakb@gmail.com
-    Website:  https://kishansavaliya.com
-    WhatsApp: +91 84012 70422
+Magento 2 Performance Optimizer is free and open-source software released under the MIT License.
+See LICENSE.txt for the full license text.

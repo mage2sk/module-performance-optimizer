@@ -1,76 +1,21 @@
-Panth - Commercial Software License Agreement
+MIT License
 
-Copyright (c) 2026 Kishan Savaliya. All rights reserved.
+Copyright (c) 2026 Kishan Savaliya (Panth Infotech)
 
-Panth_PerformanceOptimizer is a proprietary Magento 2 extension
-published on the Adobe Commerce Marketplace. The terms below govern
-your use.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-------------------------------------------------------------------------
-1. GRANT OF LICENSE
-------------------------------------------------------------------------
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-Subject to the terms of this Agreement, the copyright holder grants
-You a non-exclusive, non-transferable, non-sublicensable license to
-install and use Panth_PerformanceOptimizer on the number of Magento
-installations permitted by the license tier You purchased from the
-Adobe Commerce Marketplace.
-
-You may not redistribute the Software outside of the Adobe Commerce
-Marketplace, or as part of any product offering that is not a Panth
-Infotech extension.
-
-------------------------------------------------------------------------
-2. RESTRICTIONS
-------------------------------------------------------------------------
-
-You may NOT:
-
-  a. Distribute the Software outside the Adobe Commerce Marketplace;
-  b. Reverse engineer, decompile, or disassemble the Software, except
-     and only to the extent that such activity is expressly permitted
-     by applicable law;
-  c. Modify, translate, or create derivative works based on the
-     Software for the purpose of redistribution under a different
-     name;
-  d. Remove, alter, or obscure any proprietary notices (including
-     copyright notices) on the Software;
-  e. Use the Software to provide hosting, SaaS, or any service
-     offering in which the Software's functionality is made available
-     to any third party other than Your own customers visiting Your
-     website.
-
-------------------------------------------------------------------------
-3. SUPPORT
-------------------------------------------------------------------------
-
-Email support is provided at kishansavaliyakb@gmail.com on a
-best-effort basis.
-
-------------------------------------------------------------------------
-4. DISCLAIMER OF WARRANTY
-------------------------------------------------------------------------
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
-CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
-TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
-SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-------------------------------------------------------------------------
-5. TERMINATION
-------------------------------------------------------------------------
-
-This License is effective until terminated. Your rights under this
-License will terminate automatically without notice from the copyright
-holder if You fail to comply with any of its terms. Upon termination
-You shall cease all use of the Software and destroy all copies of it.
-
-------------------------------------------------------------------------
-
-For all questions about licensing, support, or general inquiries:
-    Email:    kishansavaliyakb@gmail.com
-    Website:  https://kishansavaliya.com
-    WhatsApp: +91 84012 70422
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
